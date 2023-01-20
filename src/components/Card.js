@@ -2,19 +2,22 @@ import './Form.css';
 import './General.css';
 import './Country.css';
 import Flag from './flag-germany.jpg';
-function CountryCard() {
+
+function CountryCard(props) {
+  console.log();
   return (
     <div className='country__card'>
       <img
         className='country__img'
-        src={Flag}
+        src={props.img}
         alt='...'
+        width={"300px"}
       />
-      <h3 className='country__title'>Germany</h3>
+      <h3 className='country__title'>{props.name}</h3>
       <ul className='country__list'>
-        <li className='country__item'>Population: 81,770,900</li>
-        <li className='country__item'>Region: Europe</li>
-        <li className='country__item'>Capital: Berlin</li>
+        <li className='country__item'>Population: {props.population}</li>
+        <li className='country__item'>Region: {props.region}</li>
+        <li className='country__item'>Capital: {props.capital}</li>
       </ul>
     </div>
   );
