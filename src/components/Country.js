@@ -1,6 +1,6 @@
-import './Form.css';
-import './General.css';
-import './Country.css';
+import './Form.scss';
+import './General.scss';
+import './Country.scss';
 import CountryCard from './Card';
 
 const data = [

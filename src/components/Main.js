@@ -1,4 +1,4 @@
-import './General.css';
+import './General.scss';
 import Form from './Form';
 import Country from './Country';
 

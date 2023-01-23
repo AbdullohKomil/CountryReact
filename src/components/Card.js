@@ -1,6 +1,6 @@
-import './Form.css';
-import './General.css';
-import './Country.css';
+import './Form.scss';
+import './General.scss';
+import './Country.scss';
 import Flag from './flag-germany.jpg';
 
 function CountryCard(props) {

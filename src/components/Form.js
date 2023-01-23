@@ -1,5 +1,5 @@
-import './Form.css';
-import './General.css'; 
+import './Form.scss';
+import './General.scss'; 
 
 function Form() {
   return (

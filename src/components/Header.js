@@ -1,5 +1,5 @@
-import './Header.css';
-import './General.css';
+import './Header.scss';
+import './General.scss';
 
 function Header() {
   return (
