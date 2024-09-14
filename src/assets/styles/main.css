@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wdth,wght,YTLC@6..12,75..125,200..1000,440..540&display=swap');
+
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -8,7 +10,9 @@ html {
 *::after {
   box-sizing: border-box;
 }
-
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -40,6 +44,7 @@ p {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1320px;
   margin: 0 auto;
+  padding: 0 20px;
 }

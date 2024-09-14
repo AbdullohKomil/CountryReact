@@ -1,0 +1,10 @@
+.cards {
+  padding-bottom: 45px;
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 74px;
+    justify-content: center;
+    align-items: center;
+  }
+}
